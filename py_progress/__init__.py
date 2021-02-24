@@ -4,10 +4,11 @@ import shutil
 def progressbar(
     current_index, total_index, left_description=None, right_description=None
 ):
-    """Simple progressbar function that prints a ASCII based progressbar in the
-    terminal with additional textual description in the left and right hand side.
-    In programs where there is a long loop, this method can be used to print a
-    progressbar with progress text.
+    """Simple progressbar function that prints an ASCII-based progressbar
+    in the terminal with the additional textual description on the left and
+    right-hand side. In programs where there is a long loop, this method can
+    be used to print a progressbar with progress text.
+
 
     Here is a example program to use this library:
 
