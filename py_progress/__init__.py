@@ -11,18 +11,14 @@ def progressbar(
 
     Here is a example program to use this library:
 
-    # This imports the time module
     import time
-
-    # This imports the progressbar module
     from py_progress import progressbar
 
-    # Simple loop to demostrate the progressbar
     for i in range(100):
         progressbar(i, 100, f"Loss: {i*2123}", f"Accuracy: {i*2}%")
         time.sleep(.3)
 
-    # This will return the following result
+    This will return the following result
     ~/.../experiments/progress-bar-test >>> python main.py
     --> Loss: 210177 |||||||||||||||||||||||||||||||| Accuracy: 100 %
 
