@@ -29,8 +29,8 @@ def progressbar(
     Here the text Loss: 210177 and Accuracy: 100% is both text passed in the method.
 
     Args:
-        current_index (integer): Current progress in the task
-        total_index (integer): Total number of steps in the task
+        current_index (float): Current progress in the task
+        total_index (float): Total number of steps in the task
         left_description (str, optional): Some description to put in the left side of
             the progressbar. Defaults to None.
         right_description (str, optional): Some description to put in the right side of
