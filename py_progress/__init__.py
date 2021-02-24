@@ -42,25 +42,25 @@ def progressbar(
     if not isinstance(current_index, int) and current_index < 0:
         raise ValueError(
             "The parameter current_index is not valid, please provide a value that is\
-            greater than -1"
+greater than -1"
         )
 
     if not isinstance(total_index, int) and total_index < 1:
         raise ValueError(
             "The parameter total_index is not valid, please provide a value that is\
-            greater than 0"
+greater than 0"
         )
 
     if left_description and not isinstance(left_description, str):
         raise ValueError(
             "The parameter left_description is not valid, please pass None or provide\
-            a string"
+a string"
         )
 
     if right_description and not isinstance(right_description, str):
         raise ValueError(
             "The parameter right_description is not valid, please pass None or provide\
-            a string"
+a string"
         )
 
     width, _ = shutil.get_terminal_size()
